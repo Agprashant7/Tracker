@@ -1,0 +1,71 @@
+
+
+<html>
+<head>
+<title>Main Page</title>
+<style>
+    body{
+
+    	
+        text-size:40px;
+        font-style:italic;
+	        }
+    .id{
+    	
+    	text-align: center;
+    	width: 300px;
+    	height: 300px;
+    
+    	border-radius: 6px;
+    	margin-top: 255px;
+    	margin-right: 80px;
+
+    }
+    .ii{
+    	margin-top: 70px;
+    	font-size: 20px;
+
+    }
+    h1{
+    	color: #B22222;
+    	text-shadow: 4px 3px #FF0000;
+
+    }
+    .btn{
+    	background-color: 
+    }
+    input[type="submit"]{
+    	background-color: grey;
+    	border-radius: 3px;
+    	
+    	
+    	color: white;
+    	font-weight: 
+    }
+    input{
+    	border-radius: 10%;
+    	background-color: ;
+    }
+
+</style>
+</head>
+<body background="download.jpg" style="background-size:cover; background-repeat: no-repeat; ">
+<Center>
+<?php if(isset($err)){ echo $err; } ?> <!-- Print Error -->
+<div class="id">
+	<font color="black">
+	<h1><marquee behavior="alternate">WELCOME</marquee></h1>
+<form method="POST" name="loginauth" target="_self">
+<div class="ii">
+<b>Username: </font><input name="username" size="20" type="text" />
+<br/><br/><br><br>
+<b>Password</b>: <input name="password" size="20" type="password" />
+<br/><br/><br>&nbsp;&nbsp;&nbsp;
+<input name="check" type="submit" value="LOGIN" />
+</div>
+</div>
+</form>
+</center>
+</font>
+</body>
+</html>
